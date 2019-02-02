@@ -20,6 +20,7 @@ if [-d './FreeRDP/.git']
     git clone https://github.com/FreeRDP/FreeRDP.git
     cd FreeRDP
 fi
+sudo apt-get install libglib2.0-dev
 
 #configure
 cmake -DCMAKE_BUILD_TYPE=Debug -DWITH_SSE2=ON .
